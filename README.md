@@ -17,7 +17,7 @@ https://developer.microsoft.com/en-us/microsoft-365/dev-program
 ## **Setup Steps (Encrypted Secure Version)**
 
 1. Fork the MSO_E5_Dev_AutoRenew repository to your GitHub account.
-2. Register a new application in Azure Active Directory.
+2. Register a new application in Azure Active Directory. https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview
     - Select any organization directory, select "Web" for the redirect URL, and enter "**[http://localhost:53682/](http://localhost:53682/)**" for the redirect URL.
     - Save the Application ID and Secret.
 3. Set application permissions.
