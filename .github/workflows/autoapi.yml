@@ -1,5 +1,5 @@
 #Automatic call to the API to keep alive, encrypted version
-name: MSO_E5_Dev_AutoRenew
+name: AutoRenew_MSO_E5_Dev
 
 on: 
   release:
@@ -60,10 +60,10 @@ jobs:
         rm -f Secret.txt
     - name: Commit #Upload a new refresh_token to the repository
       run: |
-        git config --global user.email kjmcabangon@slsu.edu.ph
-        git config --global user.name kylierst
+        git config --global user.email 112583980+tania0100@users.noreply.github.com
+        git config --global user.name tania0100
         git add .
-        git commit -m "Update new refresh token with MSO_E5_Dev_AutoRenew" -a
+        git commit -m "Update new refresh token with AutoRenew_MSO_E5_Dev" -a
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
       with:
